@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="obj"
+            type="smartdrive.neube.example.com.openclosewindow.News"/>
+
+        <variable
+            name="handler"
+            type="smartdrive.neube.example.com.openclosewindow.Handlers"/>
+
+        <variable
+            name="back"
+            type="smartdrive.neube.example.com.openclosewindow.Back" />
+    </data>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/viewRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="smartdrive.neube.example.com.openclosewindow.MainActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <Button
+            android:id="@+id/buttone1"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:layout_marginTop="32dp"
+            android:background="@{back.mDrawableResource}"
+            app:layout_constraintEnd_toStartOf="@+id/buttond1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttond1"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:background="@drawable/btn2_selector"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttone1"
+            app:layout_constraintTop_toTopOf="@+id/buttone1" />
+
+        <Button
+            android:id="@+id/buttonc"
+            android:layout_width="190sp"
+            android:layout_height="190sp"
+            android:background="@drawable/btn3_selector"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttone2"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:background="@drawable/btn4_selector"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttond2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.872" />
+
+        <Button
+            android:id="@+id/buttond2"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:background="@drawable/btn5_selector"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttone2"
+            app:layout_constraintTop_toTopOf="@+id/buttone2" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>
