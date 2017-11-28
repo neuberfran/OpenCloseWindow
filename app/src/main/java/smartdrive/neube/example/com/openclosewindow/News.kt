@@ -3,9 +3,11 @@ package smartdrive.neube.example.com.openclosewindow
 import android.databinding.BaseObservable
 import android.databinding.Bindable
 
+/*
+
 class News : BaseObservable() {
 
-    private val mFavorite: Boolean = false
+    val mFavorite: Boolean = false
 
     @Bindable
     fun isFavorite(): Boolean {
@@ -18,3 +20,5 @@ class News : BaseObservable() {
     }
 
 }
+
+        */

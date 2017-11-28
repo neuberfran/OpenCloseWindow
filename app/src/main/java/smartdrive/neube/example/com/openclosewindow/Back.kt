@@ -25,7 +25,7 @@ class Back : BaseObservable() {
 
     // here it notify to ui when value change now i am going by
 
-//        private set //wait which repos
+  //      private set //wait which repos
     var mColorResource: Int? = null
         private set
     var mColorValue: Int? = null

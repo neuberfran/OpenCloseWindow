@@ -5,14 +5,6 @@
 
     <data>
         <variable
-            name="obj"
-            type="smartdrive.neube.example.com.openclosewindow.News"/>
-
-        <variable
-            name="handler"
-            type="smartdrive.neube.example.com.openclosewindow.Handlers"/>
-
-        <variable
             name="back"
             type="smartdrive.neube.example.com.openclosewindow.Back" />
     </data>

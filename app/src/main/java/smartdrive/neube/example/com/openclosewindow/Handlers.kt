@@ -2,7 +2,7 @@ package smartdrive.neube.example.com.openclosewindow
 
 import android.view.View
 
-
+/*
 class Handlers{
 
 
@@ -19,3 +19,4 @@ class Handlers{
 
 
 }
+        */
