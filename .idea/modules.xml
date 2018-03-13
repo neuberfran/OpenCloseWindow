@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\neuber\adt-bundle-windows-x86_64-20140702\sdk\OpenCloseWindow-master\.idea\OpenCloseWindow.iml" filepath="C:\neuber\adt-bundle-windows-x86_64-20140702\sdk\OpenCloseWindow-master\.idea\OpenCloseWindow.iml" />
-      <module fileurl="file://C:\neuber\adt-bundle-windows-x86_64-20140702\sdk\OpenCloseWindow-master\OpenCloseWindow.iml" filepath="C:\neuber\adt-bundle-windows-x86_64-20140702\sdk\OpenCloseWindow-master\OpenCloseWindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/OpenCloseWindow.iml" filepath="$PROJECT_DIR$/.idea/OpenCloseWindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenCloseWindow.iml" filepath="$PROJECT_DIR$/OpenCloseWindow.iml" />
       <module fileurl="file://$PROJECT_DIR$/OpenCloseWindow-master.iml" filepath="$PROJECT_DIR$/OpenCloseWindow-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

@@ -9,7 +9,6 @@
             type="smartdrive.neube.example.com.openclosewindow.Back" />
     </data>
 
-
     <android.support.constraint.ConstraintLayout
         android:id="@+id/viewRoot"
         android:layout_width="match_parent"

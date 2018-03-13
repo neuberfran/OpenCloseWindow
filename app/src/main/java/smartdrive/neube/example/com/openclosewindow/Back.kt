@@ -16,7 +16,7 @@ import android.view.View
 class Back : BaseObservable() {
 
 //    var mDrawableResource: Int? = R.mipmap.janelafrented
-    var mDrawableResource: Int? = R.mipmap.jaesquerde
+    var mDrawableResource: Int = R.mipmap.janelafrentee
         @Bindable get
         set(value) {
             field = value
@@ -36,7 +36,7 @@ class Back : BaseObservable() {
         private set
 
     private fun reset() {
-        mDrawableResource = null
+    //    mDrawableResource = null
         mColorResource = null
         mColorValue = null
     }
