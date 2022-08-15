@@ -1,8 +1,6 @@
 package smartdrive.neube.example.com.openclosewindow
 
-import android.databinding.BindingAdapter
 import android.graphics.drawable.Drawable
-import android.support.annotation.NonNull
 import android.widget.Button
 import android.widget.TextView
 
@@ -13,7 +11,7 @@ class ValAdapter {
 
         @BindingAdapter("android:background")
         @JvmStatic
-        fun setIntToDrawable(@NonNull button: Button, @NonNull anInt: Int) {
+        fun setIntToDrawable(@androidx.annotation.NonNull button: Button, @androidx.annotation.NonNull anInt: Int) {
             button.background = button.context.getDrawable(anInt)
             //         textView.background =  anInt.toString()
 

@@ -1,7 +1,7 @@
 package smartdrive.neube.example.com.openclosewindow
 
-import android.arch.lifecycle.ViewModel
 import android.content.Context
+import androidx.lifecycle.ViewModel
 
 
 class BackViewModel : ViewModel() {

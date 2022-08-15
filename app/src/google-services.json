@@ -8,12 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:682274557494:android:b3e8e081666a70e3",
+        "mobilesdk_app_id": "1:682274557494:android:b94dfa9c367cdb1a",
         "android_client_info": {
-          "package_name": "com.example.neube.smartdrive"
+          "package_name": "smartdrive.neube.example.com.openclosewindow"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "682274557494-da74tgnc809ijbqftoma651brqko3jsm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "smartdrive.neube.example.com.openclosewindow",
+            "certificate_hash": "ba8e727e6536639a687cf8f478e51e110a8808ac"
+          }
+        },
         {
           "client_id": "682274557494-ebugf313lgn702dg368blammukg7okvh.apps.googleusercontent.com",
           "client_type": 3
@@ -25,15 +33,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682274557494-ebugf313lgn702dg368blammukg7okvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

@@ -11,7 +11,10 @@ import android.support.annotation.ColorRes
 import android.support.annotation.DrawableRes
 import android.support.v4.content.ContextCompat
 import android.view.View
-
+import androidx.annotation.ColorRes
+import androidx.annotation.DrawableRes
+import androidx.databinding.BaseObservable
+import androidx.databinding.Bindable
 
 class Back : BaseObservable() {
 

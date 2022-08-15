@@ -5,7 +5,7 @@
 
     <data>
         <variable
-            name="back1"
+            name="back"
             type="smartdrive.neube.example.com.openclosewindow.Back" />
     </data>
 
